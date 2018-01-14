@@ -1,0 +1,112 @@
+.item-plus {
+  font-size: 100px;
+  font-weight: 100;
+  line-height: 95px;
+  text-align: center;
+  color: #fff;
+}
+
+.item-circle {
+  display: block;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: solid 2px #fff;
+  margin: 15px;
+}
+
+.item-circle-icon {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin: 15px 15px 30px 15px;
+}
+
+.item-title {
+  position: absolute;
+  text-align: center;
+  top: 110px;
+  font-size: 13px;
+  line-height: 14px;
+  font-weight: lighter;
+  color: #fff;
+  width: 100px;
+  height: 30px;
+}
+
+.symbol-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 45px;
+  height: 45px;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: -10px;
+  height: 35px;
+  width: 35px;
+  background-color: orange;
+  border-radius: 50%;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  top: 0;
+  left: -10px;
+}
+
+
+/* When the checkbox is checked, add a green background */
+.container input:checked ~ .checkmark {
+  background-color: green;
+}
+
+.checkmark-above {
+	position: absolute;
+	width: 12px;
+	height: 7px;
+	top: 10px;
+	left: -2px;
+	border: 5px solid white;
+	border-top: none;
+	border-right: none;
+	transform: rotate(-45deg);
+  z-index: 50;
+}
+
+.remove {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #F6413B;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border: none;
+  cursor: pointer;
+}
+
+.remove-icon {
+  font-size: 50px;
+  color: white;
+  line-height: 28px;
+}

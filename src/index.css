@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.app-container {
+  margin: 20px auto 20px auto;
+  background: linear-gradient(to bottom right, blue, purple);
+  width: 25vw;
+  min-height: 12vw;
+  padding: 2vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 45px;
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+
+.btn {
+  outline: none;
+  border: 1px solid white;
+  background-color: transparent;
+  border-radius: 4px;
+  padding: 5px 30px 5px 30px;
+  color: white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+@keyframes bounce {
+  50% {
+    transform: translate3d(180deg);
+  }
+
+}
+
+@media (max-width: 376px) {
+  .app-container {
+    margin: 0;
+    width: auto;
+    height: 165vw;
+    padding: 8vw;
+  }
+}

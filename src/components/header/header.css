@@ -1,0 +1,17 @@
+.header-container {
+  display: flex;
+}
+
+.logo {
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: white;
+  margin-left: 90px;
+}
+
+.calendaricon {
+  width: 25px;
+  height: 25px;
+  margin-left: 60px;
+}
